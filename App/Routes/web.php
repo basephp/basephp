@@ -4,7 +4,7 @@ use \Wine\Support\Facades\Route;
 
 
 Route::add('/','Welcome');
-Route::add('/page',['session'],'Page');
+Route::add('/edit/{id}/{name}',['session'],'Page');
 
 /*
 Route::group('test',function(){

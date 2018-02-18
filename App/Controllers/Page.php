@@ -11,11 +11,13 @@ use \Wine\Routing\Controller;
 class Page extends Controller
 {
 
-    public function index()
+    public function index($id, $name)
     {
-        $name = $this->request->input('name', 'unknown');
+        $name = $this->request->input('name', $name);
 
-        return view('homepage',['hello'=>$name]);
+        return view('homepage',[
+            'hello'=>$name
+        ]);
     }
 
 }
