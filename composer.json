@@ -1,0 +1,17 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/timothymarois/Documents/Development/TM/PHPEF/WinePHP"
+        }
+    ],
+    "require": {
+        "winephp/wine": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
