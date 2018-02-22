@@ -4,7 +4,26 @@ use \Wine\Support\Facades\Route;
 
 
 Route::add('/','Welcome');
-Route::add('/edit/{id}/{name}',['session'],'Page');
+Route::add('/edit/{id}/{name}',['html.compress','auth:admin'],'Page');
+Route::add('/{keyword}/{game}',['auth:admin'],'Welcome::index');
+
+Route::add('test/{id}',function($id){
+    return ['id'=>$id];
+});
+
+
+
+Route::group('/admin',['html.compress', 'auth:admin'],function(){
+
+	Route::add('/edit/{id}','Page');
+
+});
+
+
+// echo '<pre>'.print_r(Route::getRoutes(),1).'</pre>';
+
+
+
 
 /*
 Route::group('test',function(){

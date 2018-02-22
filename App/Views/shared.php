@@ -1,1 +1,1 @@
-shared: <?=$hello?>
+<?=view('homepage')?>
