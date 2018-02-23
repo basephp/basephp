@@ -13,16 +13,18 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| (OPTIONAL) Register your patterns
+	| (OPTIONAL) Register your REGEX patterns
 	|--------------------------------------------------------------------------
-	| REGEX
+	|
+	| Built-in patterns:
+	| any = .*
+	| num = [0-9]+
+	| alpha = [a-zA-Z]+
+	| alphanum = [a-zA-Z0-9]+
 	|
 	*/
 	'patterns' => [
-		'id' => '([0-9]+)',
-		'name' => '([a-zA-Z0-9]+)',
-		'keyword' => '([a-zA-Z\-0-9]+)',
-		'game' => '([a-zA-Z\-0-9]+-game)'
+
 	],
 
 	/*

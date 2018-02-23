@@ -4,8 +4,7 @@ use \Wine\Support\Facades\Route;
 
 
 Route::add('/','Welcome');
-Route::add('/edit/{id}/{name}',['html.compress','auth:admin'],'Page');
-Route::add('/{keyword}/{game}',['auth:admin'],'Welcome::index');
+Route::add('/edit/{num}/{alphanum}',['html.compress','auth:admin'],'Page');
 
 Route::add('test/{id}',function($id){
     return ['id'=>$id];
