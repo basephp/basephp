@@ -19,8 +19,11 @@ Route::group('/admin',['html.compress', 'auth:admin'],function(){
 });
 
 
-
 Route::add('/json/{num}/{alphanum}','Json::index/$1/$2');
+
+Route::add('/{category}/{any}-game','Page::index/$2');
+Route::add('/{any}-games','Page::index/$1');
+Route::add('/{any}','Page::index/$1');
 
 
 // echo '<pre>'.print_r(Route::getRoutes(),1).'</pre>';
