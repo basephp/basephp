@@ -19,6 +19,10 @@ Route::group('/admin',['html.compress', 'auth:admin'],function(){
 });
 
 
+
+Route::add('/json/{num}/{alphanum}','Json::index/$1/$2');
+
+
 // echo '<pre>'.print_r(Route::getRoutes(),1).'</pre>';
 
 
