@@ -6,7 +6,8 @@ return [
     |--------------------------------------------------------------------------
     | Controllers Namespace
     |--------------------------------------------------------------------------
-    | By default the controller namespace is \App\Controllers
+    |
+    | By default the controller namespace is "\App\Controllers"
     |
     */
 
@@ -31,10 +32,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | (OPTIONAL) Attach middleware classes to routes
+    | (OPTIONAL) Register middlewares for this application
     |--------------------------------------------------------------------------
     |
-    | The middlewares here do not run unless you tell them too on routes
+    | The middlewares here do not run unless you tell them too on routes,
+    | or autoload. This is a place where you register all the middlewares
+    | you want the application to have access too.
     |
     |
     */
@@ -49,7 +52,7 @@ return [
     | (OPTIONAL) Autoloaded Middlewares (every request...)
     |--------------------------------------------------------------------------
     |
-    | These middlewares will run on all requests
+    | These middlewares will run on all requests.
     |
     |
     */
