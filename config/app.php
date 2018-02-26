@@ -68,7 +68,7 @@ return [
     */
 
     'session' => [
-        'driver' => \Wine\Session\Driver\Files::class,
+        'driver' => \Wine\Session\Provider\Files::class,
         'cookie' => 'WINEPHP',
         'expiration' => 3600,
         'save_path' => null
