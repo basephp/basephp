@@ -11,6 +11,8 @@ class Page extends Controller
 	{
 		$name = $this->request->input('name', $name);
 
+        // $this->request->session->set(['test'=>'this is a value']);
+
 		return view('shared',['id'=>$id,'name'=>$name]);
 	}
 

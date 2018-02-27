@@ -44,8 +44,7 @@ return [
 
     'middleware' => [
         'session' => \Wine\Session\Middleware\StartSession::class,
-        'html.compress' => App\Middleware\OutputCompress::class,
-        'auth' => App\Middleware\Auth::class,
+        'html.compress' => App\Middleware\OutputCompress::class
     ],
 
     /*
