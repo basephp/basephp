@@ -10,8 +10,9 @@ class Page extends Controller
 	public function index($id, $name = '')
 	{
 		$name = $this->request->input('name', $name);
+        $name = $this->request->session->get('name',$name);
 
-        // $this->request->session->set(['test'=>'this is a value']);
+        $this->request->session->set(['name'=>'John Smith']);
 
 		return view('shared',['id'=>$id,'name'=>$name]);
 	}
