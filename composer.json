@@ -2,11 +2,11 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/Users/timothymarois/Documents/Development/TM/PHPEF/WinePHP"
+            "url": "/Users/timothymarois/Documents/Development/TM/PHPEF/BasePHP"
         }
     ],
     "require": {
-        "winephp/wine": "dev-master"
+        "basephp/base": "dev-master"
     },
 
     "autoload": {

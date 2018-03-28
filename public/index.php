@@ -32,5 +32,5 @@ require __DIR__.'/../vendor/autoload.php';
 | Send the root path of our application.
 |
 */
-$app = new \Wine\Application(realpath(__DIR__.'/../'));
+$app = new \Base\Application(realpath(__DIR__.'/../'));
 $app->initialize();

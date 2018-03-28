@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Wine\Routing\Controller;
+use Base\Routing\Controller;
 
 class Welcome extends Controller
 {

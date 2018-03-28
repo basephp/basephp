@@ -41,5 +41,7 @@
 
 		</div>
 
+        <br>[ Execution: <b>{APP_TIME}</b> Seconds | Memory Used: <b>{APP_MEMORY}</b>
+
 	</body>
 </html>

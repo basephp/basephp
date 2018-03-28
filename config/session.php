@@ -10,15 +10,15 @@ return [
     | [provider]
     |
     |   Class location namespace of which sessions will use
-    |   Must implement \Wine\Session\ProviderInterface
+    |   Must implement \Base\Session\ProviderInterface
     |
     | [Built-in]
     |
-    |   \Wine\Session\Provider\Files::class
+    |   \Base\Session\Provider\Files::class
     |
     */
 
-    'provider' => \Wine\Session\Provider\Files::class,
+    'provider' => \Base\Session\Provider\Files::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ return [
     |
     */
 
-    'cookie' => env('SESSION_COOKIE', 'WINEPHP'),
+    'cookie' => env('SESSION_COOKIE', 'BasePHP'),
 
     /*
     |--------------------------------------------------------------------------

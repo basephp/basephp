@@ -43,7 +43,7 @@ return [
     */
 
     'middleware' => [
-        'session' => \Wine\Session\Middleware\StartSession::class,
+        'session' => \Base\Session\Middleware\StartSession::class,
         'html.compress' => App\Middleware\OutputCompress::class
     ],
 

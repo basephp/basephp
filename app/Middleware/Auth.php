@@ -2,7 +2,7 @@
 
 namespace App\Middleware;
 
-use Wine\Routing\Middleware;
+use Base\Routing\Middleware;
 
 /**
  * This Middleware compresses the "html" on a single line. (reduces whitespace)
