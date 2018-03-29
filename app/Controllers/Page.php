@@ -12,9 +12,9 @@ class Page extends Controller
         // return ['app_time'=>'{APP_TIME}'];
 
 		$name = $this->request->input('name', $name);
-        $name = $this->request->session->get('name',$name);
-
-        $this->request->session->set(['name'=>'New Name']);
+        
+        // $name = $this->request->session->get('name',$name);
+        // $this->request->session->set(['name'=>'New Name']);
 
 		return view('shared',['id'=>$id,'name'=>$name]);
 	}

@@ -45,7 +45,20 @@ return [
     |
     */
 
-    'expiration' => env('SESSION_EXPIRE', 3600),
+    'expiration' => env('SESSION_EXPIRE', 0),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Session Lottery (Garbage Collector)
+    |--------------------------------------------------------------------------
+    |
+    | Some session drivers must manually sweep their storage location to get
+    | rid of old sessions from storage. Here are the chances that it will
+    | happen on a given request. By default, the odds are 2 out of 1000.
+    |
+    */
+
+    'gc_lottery' => [2, 1000],
 
     /*
     |--------------------------------------------------------------------------
