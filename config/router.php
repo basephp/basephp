@@ -13,6 +13,21 @@ return [
 
     'controllers' => '\\App\\Controllers',
 
+
+    /*
+    |--------------------------------------------------------------------------
+    | Not Found Error - Controller (404)
+    |--------------------------------------------------------------------------
+    |
+    | Which controller to send the user when the page is not found (404)
+    |
+    | DO NOT INCLUDE THE CONTROLLER NAMESPACE HERE
+    |
+    */
+
+    'errors' => 'Error',
+
+
     /*
     |--------------------------------------------------------------------------
     | (OPTIONAL) Register your REGEX patterns
@@ -44,7 +59,8 @@ return [
 
     'middleware' => [
         'session' => \Base\Session\Middleware\StartSession::class,
-        'html.compress' => App\Middleware\OutputCompress::class
+        'minify' => App\Middleware\Minify::class,
+        'test' => App\Middleware\Test::class
     ],
 
     /*
@@ -58,7 +74,7 @@ return [
     */
 
     'autoload' => [
-
+        'test'
     ]
 
 ];

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use \Base\Routing\Controller;
+use Base\Routing\Controller;
 
 class Json extends Controller
 {
