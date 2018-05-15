@@ -37,4 +37,20 @@ return [
 
     'encoding' => env('APP_ENCODING', 'UTF-8'),
 
+
+    /*
+    |--------------------------------------------------------------------------
+    | (OPTIONAL) Register service providers for this application
+    |--------------------------------------------------------------------------
+    |
+    | These service providers will load automatically on boot
+    | They will load up the boot() method if one exist.
+    | They will be available through the app() instance for reference.
+    |
+    */
+
+    'providers' => [
+        
+    ]
+
 ];

@@ -9,7 +9,12 @@ class Error extends Controller
 
 	public function index()
 	{
-        return 'Error: Page Not Found.';
+        if ($this->request->isMethod('GET') && !$this->request->isConsole() && !$this->request->isAjax())
+        {
+            // redirect('/');
+        }
+
+        return 'Error: Resources not found.';
 	}
 
 }

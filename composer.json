@@ -1,12 +1,6 @@
 {
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/Users/timothymarois/Documents/Development/TM/PHPEF/BasePHP"
-        }
-    ],
     "require": {
-        "basephp/base": "dev-master"
+        "basephp/framework": "dev-master",
     },
 
     "autoload": {
