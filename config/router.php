@@ -58,9 +58,7 @@ return [
     */
 
     'middleware' => [
-        'session' => \Base\Session\Middleware\StartSession::class,
-        'minify' => App\Middleware\Minify::class,
-        'test' => App\Middleware\Test::class
+        'session' => \Base\Session\Middleware\StartSession::class
     ],
 
     /*
@@ -74,7 +72,7 @@ return [
     */
 
     'autoload' => [
-        'test'
+
     ]
 
 ];

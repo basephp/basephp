@@ -9,7 +9,7 @@ class Welcome extends Controller
 
 	public function index()
 	{
-		echo $this->request->input('name', 'unknown');
+		return view('welcome')->minify();
 	}
 
 }
