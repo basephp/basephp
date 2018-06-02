@@ -21,16 +21,31 @@ define('APP_START', microtime(true));
 | @see https://getcomposer.org/
 |
 */
-require __DIR__.'/../vendor/autoload.php';
+
+if (file_exists(__DIR__.'/../vendor/autoload.php'))
+{
+    require __DIR__.'/../vendor/autoload.php';
 
 
-/*
-|--------------------------------------------------------------------------
-| Load up the application
-|--------------------------------------------------------------------------
-|
-| Send the root path of our application.
-|
-*/
-$app = new \Base\Application(realpath(__DIR__.'/../'));
-$app->initialize();
+    /*
+    |--------------------------------------------------------------------------
+    | Load up the application
+    |--------------------------------------------------------------------------
+    |
+    | Send the root path of our application.
+    |
+    */
+    $app = new \Base\Application(realpath(__DIR__.'/../'));
+    $app->initialize();
+}
+else
+{
+    if (file_exists('./basephp.php'))
+    {
+        require './basephp.php';
+    }
+    else
+    {
+        die('Missing /vendor/autoload.php, please run composer install for framework dependencies. For more information please visit, basephp.org');
+    }
+}
