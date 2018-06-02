@@ -1,11 +1,13 @@
 {
     "require": {
-        "basephp/framework": "dev-master",
+        "basephp/framework": "dev-master"
     },
 
     "autoload": {
         "psr-4": {
             "App\\": "app/"
         }
-    }
+    },
+
+    "optimize-autoloader": true
 }
