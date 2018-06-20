@@ -33,12 +33,7 @@
 		</style>
 
 		<div class="main">
-
-			<div style="text-align:left;">
-				<p>id: <?=$id?></p>
-                <p>name: <?=$name?></p>
-			</div>
-
+			Welcome to BasePHP
 		</div>
 
         <br>[ Execution: <b>{APP_TIME}</b> Seconds | Memory Used: <b>{APP_MEMORY}</b>
