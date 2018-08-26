@@ -1,6 +1,6 @@
 {
     "require": {
-        "basephp/framework": "dev-master"
+        "basephp/framework": "1.1.*"
     },
 
     "autoload": {
