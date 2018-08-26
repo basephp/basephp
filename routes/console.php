@@ -5,18 +5,13 @@
 | Console Routes
 |--------------------------------------------------------------------------
 |
-| Use this file to register new routes for your application.
+| Use this file to register "console" routes for your application.
+| These should run only within the console (CLI)
 |
 */
 
 route()->console(function(){
 
-    /*
-
-    route('/path/in/console',function(){
-        return "This route will only be shown within the console";
-    });
-
-    */
+    // route('welcome','Welcome::index');
 
 });
