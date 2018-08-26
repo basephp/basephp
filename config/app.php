@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'domain' => env('APP_DOMAIN', ''),
+    'domain' => env('APP_DOMAIN',''),
 
     /*
     |--------------------------------------------------------------------------
@@ -37,6 +37,8 @@ return [
 
     'encoding' => env('APP_ENCODING', 'UTF-8'),
 
+    'environment' => env('APP_ENV', 'development'),
+
 
     /*
     |--------------------------------------------------------------------------
@@ -50,7 +52,7 @@ return [
     */
 
     'providers' => [
-        
+
     ]
 
 ];
