@@ -1,6 +1,6 @@
 {
     "require": {
-        "basephp/framework": "1.1.*"
+        "basephp/framework": "1.2.*"
     },
 
     "autoload": {
