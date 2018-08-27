@@ -13,7 +13,6 @@ return [
 
     'controllers' => '\\App\\Controllers',
 
-
     /*
     |--------------------------------------------------------------------------
     | Not Found Error - Controller (404)
@@ -26,7 +25,6 @@ return [
     */
 
     'errors' => 'Error',
-
 
     /*
     |--------------------------------------------------------------------------
@@ -44,7 +42,6 @@ return [
     'patterns' => [
 
     ],
-
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +64,6 @@ return [
         'Session' => \Base\Session\Middleware\StartSession::class,
         'HttpFrameGuard' => \Base\Http\Middleware\HttpFrameGuard::class
     ],
-
 
     /*
     |--------------------------------------------------------------------------

@@ -43,9 +43,12 @@ return [
     |   How long will the session last (in seconds).
     |   Setting to 0 will expire once the user closes their browser.
     |
+    |   1800 = 30 minutes
+    |   3600 = 60 minutes
+    |
     */
 
-    'expiration' => env('SESSION_EXPIRE', 0),
+    'expiration' => env('SESSION_EXPIRE', 1800),
 
     /*
     |--------------------------------------------------------------------------
