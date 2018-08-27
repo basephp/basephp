@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', ''),
+    'name' => env('APP_NAME', 'BasePHP Application'),
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'domain' => env('APP_DOMAIN',''),
+    'domain' => env('APP_DOMAIN', 'basephp.org'),
 
     /*
     |--------------------------------------------------------------------------
@@ -38,6 +38,8 @@ return [
     'encoding' => env('APP_ENCODING', 'UTF-8'),
 
     'environment' => env('APP_ENV', 'development'),
+
+    'globals' => env('APP_GLOBALS', false),
 
 
     /*
