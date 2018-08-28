@@ -14,7 +14,7 @@ There are a lot of PHP frameworks to choose from and most are personal preferenc
 
 ## Installation:
 
-**(1)** Download the [latest release](https://github.com/basephp/basephp/archive/master.zip).
+**(1)** Download the [latest release](https://github.com/basephp/basephp/archive/1.2.zip).
 
 **(2)** Run `composer install`
 
