@@ -33,7 +33,7 @@ return [
     |
     */
 
-    'timezone' => env('APP_TIMEZONE', 'America/New_York');
+    'timezone' => env('APP_TIMEZONE', 'America/New_York'),
 
     /*
     |--------------------------------------------------------------------------
