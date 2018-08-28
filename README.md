@@ -1,13 +1,31 @@
-# BasePHP
-BasePHP is a PHP framework for modern minimalist, who like **simplicity** and **speed**. BasePHP was built from the ground up, incorporating the best aspects from popular frameworks, and only including what is necessary and essential to building modern applications. You can extend BasePHP by developing or installing community packages.
+<p align="center"><img src="http://timothymarois.com/a/basephp2-logo-03-01.svg"></p>
 
-You may download this project and install it's requirements via composer.
+## About BasePHP
 
-```
-php composer install
-```
+BasePHP is a PHP framework for minimalist who like **simplicity** and **speed**. BasePHP incorporates the best aspects from popular frameworks and only including what is essential to building modern applications. You can extend BasePHP by developing or installing community packages.
 
-## Quick Links:
-* [BasePHP Framework](https://github.com/basephp/framework)
-* **Example Application**
-* [BasePHP Package - Database](https://github.com/basephp/database)
+The BasePHP design is intended to keep your application lean and it's operations to only what you use; ultimately reducing the memory and load times for each request.
+
+
+## Why BasePHP?
+
+There are a lot of PHP frameworks to choose from and most are personal preference. We're not going state that BasePHP is the best choice for your project. But, If you like **fast responses** and a component driven back-end with unbias design patterns; then BasePHP might be the answer.
+
+
+## Installation:
+
+**(1)** Download the latest release.
+
+**(2)** Run `composer install`
+
+**(3)** Rename `.env-example` to `.env` and personalize your application settings.
+
+
+## Contributions
+
+For all issues and pull requests, please post on the [BasePHP Framework](https://opensource.org/licenses/MIT) repository.
+
+
+## License
+
+BasePHP is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
