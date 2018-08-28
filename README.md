@@ -14,7 +14,7 @@ There are a lot of PHP frameworks to choose from and most are personal preferenc
 
 ## Installation:
 
-**(1)** Download the latest release.
+**(1)** Download the [latest release](https://github.com/basephp/framework/archive/master.zip).
 
 **(2)** Run `composer install`
 
@@ -23,7 +23,7 @@ There are a lot of PHP frameworks to choose from and most are personal preferenc
 
 ## Contributions
 
-For all issues and pull requests, please post on the [BasePHP Framework](https://opensource.org/licenses/MIT) repository.
+For all issues and pull requests, please post on the [BasePHP Framework](https://github.com/basephp/framework) repository.
 
 
 ## License
