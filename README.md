@@ -2,7 +2,7 @@
 
 ## About BasePHP
 
-BasePHP is a PHP framework for minimalist who like **simplicity** and **speed**. BasePHP incorporates the best aspects from popular frameworks and only including what is essential to building modern applications. You can extend BasePHP by developing or installing community packages.
+BasePHP is a PHP framework for the minimalist who likes **simplicity** and **speed**. BasePHP incorporates the best aspects from popular frameworks and only including what is essential to building modern applications. You can extend BasePHP by developing or installing community packages.
 
 The BasePHP design is intended to keep your application lean and it's operations to only what you use; ultimately reducing the memory and load times for each request.
 
@@ -14,7 +14,7 @@ There are a lot of PHP frameworks to choose from and most are personal preferenc
 
 ## Installation:
 
-**(1)** Download the [latest release](https://github.com/basephp/framework/archive/master.zip).
+**(1)** Download the [latest release](https://github.com/basephp/basephp/archive/master.zip).
 
 **(2)** Run `composer install`
 
