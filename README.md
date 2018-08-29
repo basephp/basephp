@@ -2,6 +2,8 @@
 
 ## About BasePHP
 
+[![Slack](http://timothymarois.com/a/slack-02.svg)](https://join.slack.com/t/basephp/shared_invite/enQtNDI0MzQyMDE0MDAwLWU3Nzg0Yjk4MjM0OWVmZDZjMjEyYWE2YjA1ODFhNjI2MzI3MjAyOTIyOTRkMmVlNWNhZWYzMTIwZDJlOWQ2ZTA)
+
 BasePHP is a PHP framework for the minimalist who likes **simplicity** and **speed**. BasePHP incorporates the best aspects from popular frameworks and only including what is essential to building modern applications. You can extend BasePHP by developing or installing community packages.
 
 The BasePHP design is intended to keep your application lean and it's operations to only what you use; ultimately reducing the memory and load times for each request.
